@@ -1,0 +1,21 @@
+.first
+{width: 98%;
+height: 15%;
+text-align: center;
+background-color: gray;
+border-color: red;
+border-style: dotted;
+border-width: 5px;}
+
+p {font-size: 30px;
+font-style: italic;
+background-color: yellow;
+text-align: right;}
+
+.spisok{
+background: #3399ff;
+padding: 20px;}
+
+.tea{background: #cce5ff;
+  color: darkblue;
+margin: 5px;}
