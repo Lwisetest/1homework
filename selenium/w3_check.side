@@ -1,0 +1,677 @@
+{
+  "id": "77652409-cce1-48bd-83b2-dcc221944695",
+  "version": "2.0",
+  "name": "w3_check",
+  "url": "https://www.w3schools.com",
+  "tests": [{
+    "id": "a7232309-d337-4a8d-8213-6f943867284e",
+    "name": "search_form_present",
+    "commands": [{
+      "id": "80b15ca9-ba4b-405e-8336-c586c40ebd55",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9946120e-665e-4d00-8e4a-118bf60b55b9",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "//*[@id=\"main\"]/div[1]/div/form",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fe4d4c68-25ac-4762-ad62-d9ba62a5aeaf",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x784",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b744ade8-9183-4728-a917-12507668a0bb",
+      "comment": "",
+      "command": "click",
+      "target": "css=#navbtn_tutorials > .fa-caret-down",
+      "targets": [
+        ["css=#navbtn_tutorials > .fa-caret-down", "css:finder"],
+        ["xpath=//a[@id='navbtn_tutorials']/i", "xpath:idRelative"],
+        ["xpath=//a[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "db5e4321-85fc-49ca-80ad-7cd9c67895f9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Learn Python",
+      "targets": [
+        ["linkText=Learn Python", "linkText"],
+        ["css=#nav_tutorials .w3-col:nth-child(3) > .w3-bar-item:nth-child(11)", "css:finder"],
+        ["xpath=//a[contains(text(),'Learn Python')]", "xpath:link"],
+        ["xpath=//nav[@id='nav_tutorials']/div/div/div[3]/a[9]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/python/default.asp')]", "xpath:href"],
+        ["xpath=//div[3]/a[9]", "xpath:position"],
+        ["xpath=//a[contains(.,'Learn Python')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c20a1d1b-4414-4367-9592-eb46b3d1fcc7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Python Data Types",
+      "targets": [
+        ["linkText=Python Data Types", "linkText"],
+        ["css=#leftmenuinnerinner > a:nth-child(9)", "css:finder"],
+        ["xpath=//a[contains(text(),'Python Data Types')]", "xpath:link"],
+        ["xpath=//div[@id='leftmenuinnerinner']/a[7]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'python_datatypes.asp')]", "xpath:href"],
+        ["xpath=//div[6]/div/div/a[7]", "xpath:position"],
+        ["xpath=//a[contains(.,'Python Data Types')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "71ecd926-0e3b-4c84-8858-03f74564a635",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Try it Yourself »",
+      "targets": [
+        ["linkText=Try it Yourself »", "linkText"],
+        ["css=.w3-margin-bottom:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Try it Yourself »')]", "xpath:link"],
+        ["xpath=//div[@id='main']/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'trypython.asp?filename=demo_type')]", "xpath:href"],
+        ["xpath=//div[7]/div/div/div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Try it Yourself »')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win4556",
+      "windowTimeout": 2000
+    }, {
+      "id": "99e54237-f4af-4661-a7b5-4a70778a3a66",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9b013008-ca18-447b-9c93-20ddac005090",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win4556}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "93551bde-631c-4ec0-9f85-90adb80ef97d",
+      "comment": "",
+      "command": "click",
+      "target": "id=runbtn",
+      "targets": [
+        ["id=runbtn", "id"],
+        ["css=#runbtn", "css:finder"],
+        ["xpath=//button[@id='runbtn']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Run ❯')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f99720b4-186c-431c-8223-941a4122260b",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6e8c7aab-8fbe-4b17-ba17-02f80d1ddd8d",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "490da144-a587-4763-bb29-0758bfa509e3",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "e269ffdc-e2fb-41d0-b96b-226160f8429c",
+    "name": "Programming_menu",
+    "commands": [{
+      "id": "9f628490-ff73-4c0c-9a9a-71d00ec20f34",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6de8fe7c-1560-42f7-9ccc-09854c7b4d7f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x784",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d58956ed-5594-4bf4-a7e4-461ac8688146",
+      "comment": "",
+      "command": "click",
+      "target": "css=#navbtn_tutorials > .fa-caret-down",
+      "targets": [
+        ["css=#navbtn_tutorials > .fa-caret-down", "css:finder"],
+        ["xpath=//a[@id='navbtn_tutorials']/i", "xpath:idRelative"],
+        ["xpath=//a[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f2d7fb2-8219-4c0f-a8fc-9a22a9d05668",
+      "comment": "",
+      "command": "assertText",
+      "target": "//*[@id=\"nav_tutorials\"]/div/div/div[3]/h3[2]",
+      "targets": [],
+      "value": "Programming"
+    }, {
+      "id": "ff6489ac-0584-4d21-b572-0783e9e778cf",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Learn Python",
+      "targets": [
+        ["linkText=Learn Python", "linkText"],
+        ["css=#nav_tutorials .w3-col:nth-child(3) > .w3-bar-item:nth-child(11)", "css:finder"],
+        ["xpath=//a[contains(text(),'Learn Python')]", "xpath:link"],
+        ["xpath=//nav[@id='nav_tutorials']/div/div/div[3]/a[9]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/python/default.asp')]", "xpath:href"],
+        ["xpath=//div[3]/a[9]", "xpath:position"],
+        ["xpath=//a[contains(.,'Learn Python')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f53bae57-bc10-44c5-b83f-4def92ce88c3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Python Data Types",
+      "targets": [
+        ["linkText=Python Data Types", "linkText"],
+        ["css=#leftmenuinnerinner > a:nth-child(9)", "css:finder"],
+        ["xpath=//a[contains(text(),'Python Data Types')]", "xpath:link"],
+        ["xpath=//div[@id='leftmenuinnerinner']/a[7]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'python_datatypes.asp')]", "xpath:href"],
+        ["xpath=//div[6]/div/div/a[7]", "xpath:position"],
+        ["xpath=//a[contains(.,'Python Data Types')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "728a3f4a-4402-4902-b790-34fdaef66cba",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Try it Yourself »",
+      "targets": [
+        ["linkText=Try it Yourself »", "linkText"],
+        ["css=.w3-margin-bottom:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Try it Yourself »')]", "xpath:link"],
+        ["xpath=//div[@id='main']/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'trypython.asp?filename=demo_type')]", "xpath:href"],
+        ["xpath=//div[7]/div/div/div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Try it Yourself »')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win4556",
+      "windowTimeout": 2000
+    }, {
+      "id": "0a63420f-55da-4c09-8207-a3d7b1560015",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a447b092-51dd-4de7-b630-5633fa9bb09b",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win4556}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "776adb33-1a80-470d-aba2-167e6811e9e9",
+      "comment": "",
+      "command": "click",
+      "target": "id=runbtn",
+      "targets": [
+        ["id=runbtn", "id"],
+        ["css=#runbtn", "css:finder"],
+        ["xpath=//button[@id='runbtn']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Run ❯')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "afe0b610-32fc-446a-bdfe-9e37334d1075",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0df3c8ec-95b2-4765-a31c-37f6ca4013e6",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6f106092-1e9c-4a40-b8f5-2ee16b616e40",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "a33ad0cb-43c5-414d-ae4c-760ee10065fd",
+    "name": "Home_button_present",
+    "commands": [{
+      "id": "5cf1f8b1-1ce3-41dc-8eb1-372a99ba502e",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7d149060-0f8f-403b-befd-2c003bf10c5a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x784",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "95b1e0f4-e1ae-4641-bd36-8d84383e0f40",
+      "comment": "",
+      "command": "click",
+      "target": "css=#navbtn_tutorials > .fa-caret-down",
+      "targets": [
+        ["css=#navbtn_tutorials > .fa-caret-down", "css:finder"],
+        ["xpath=//a[@id='navbtn_tutorials']/i", "xpath:idRelative"],
+        ["xpath=//a[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b90ca261-9f64-4909-ab64-e6f1991bff6e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Learn Python",
+      "targets": [
+        ["linkText=Learn Python", "linkText"],
+        ["css=#nav_tutorials .w3-col:nth-child(3) > .w3-bar-item:nth-child(11)", "css:finder"],
+        ["xpath=//a[contains(text(),'Learn Python')]", "xpath:link"],
+        ["xpath=//nav[@id='nav_tutorials']/div/div/div[3]/a[9]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/python/default.asp')]", "xpath:href"],
+        ["xpath=//div[3]/a[9]", "xpath:position"],
+        ["xpath=//a[contains(.,'Learn Python')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9aa20c03-8665-49f3-bcee-a95209b202db",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "//*[@id=\"main\"]/div[2]/a[1]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "da0c602d-da5f-43df-a3e2-c7e0837a0b4c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Python Data Types",
+      "targets": [
+        ["linkText=Python Data Types", "linkText"],
+        ["css=#leftmenuinnerinner > a:nth-child(9)", "css:finder"],
+        ["xpath=//a[contains(text(),'Python Data Types')]", "xpath:link"],
+        ["xpath=//div[@id='leftmenuinnerinner']/a[7]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'python_datatypes.asp')]", "xpath:href"],
+        ["xpath=//div[6]/div/div/a[7]", "xpath:position"],
+        ["xpath=//a[contains(.,'Python Data Types')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a11887d-7075-4613-887b-b00e4d270644",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Try it Yourself »",
+      "targets": [
+        ["linkText=Try it Yourself »", "linkText"],
+        ["css=.w3-margin-bottom:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Try it Yourself »')]", "xpath:link"],
+        ["xpath=//div[@id='main']/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'trypython.asp?filename=demo_type')]", "xpath:href"],
+        ["xpath=//div[7]/div/div/div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Try it Yourself »')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win4556",
+      "windowTimeout": 2000
+    }, {
+      "id": "efea6bf5-366b-452e-96bc-14afa8beeeae",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a563ca3d-a423-47d0-80a0-fbbed61daedb",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win4556}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "60667765-11b3-4140-be2a-caba1710d363",
+      "comment": "",
+      "command": "click",
+      "target": "id=runbtn",
+      "targets": [
+        ["id=runbtn", "id"],
+        ["css=#runbtn", "css:finder"],
+        ["xpath=//button[@id='runbtn']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Run ❯')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f69a7e9-c42e-4816-a436-9aea6db7db36",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3402aac9-51f5-43bb-809a-8558a934c242",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "42ebbfcd-f4d5-484e-916d-44198de2b447",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "d29c4cce-34d1-4a9f-94ab-52c224ca7f61",
+    "name": "form_editable",
+    "commands": [{
+      "id": "9bbecaae-5200-4717-a7b2-6696aa716c5b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d2de25d0-f082-4012-ba4b-3e30335c0e3e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x784",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0fc87f9a-f231-43ff-b6fd-1ce438ce3dad",
+      "comment": "",
+      "command": "click",
+      "target": "css=#navbtn_tutorials > .fa-caret-down",
+      "targets": [
+        ["css=#navbtn_tutorials > .fa-caret-down", "css:finder"],
+        ["xpath=//a[@id='navbtn_tutorials']/i", "xpath:idRelative"],
+        ["xpath=//a[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1c30613-ee28-4af8-9a95-11aa0a0dc550",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Learn Python",
+      "targets": [
+        ["linkText=Learn Python", "linkText"],
+        ["css=#nav_tutorials .w3-col:nth-child(3) > .w3-bar-item:nth-child(11)", "css:finder"],
+        ["xpath=//a[contains(text(),'Learn Python')]", "xpath:link"],
+        ["xpath=//nav[@id='nav_tutorials']/div/div/div[3]/a[9]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/python/default.asp')]", "xpath:href"],
+        ["xpath=//div[3]/a[9]", "xpath:position"],
+        ["xpath=//a[contains(.,'Learn Python')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0ef4eb4-01a6-4c32-b7de-44fa2516defa",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Python Data Types",
+      "targets": [
+        ["linkText=Python Data Types", "linkText"],
+        ["css=#leftmenuinnerinner > a:nth-child(9)", "css:finder"],
+        ["xpath=//a[contains(text(),'Python Data Types')]", "xpath:link"],
+        ["xpath=//div[@id='leftmenuinnerinner']/a[7]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'python_datatypes.asp')]", "xpath:href"],
+        ["xpath=//div[6]/div/div/a[7]", "xpath:position"],
+        ["xpath=//a[contains(.,'Python Data Types')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3633d15-61f7-4eb0-8baa-b73bbf587940",
+      "comment": "",
+      "command": "assertEditable",
+      "target": "//*[@id=\"w3-exerciseform\"]/div/div/pre/input",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0740c1ad-164f-44c9-9d28-210d0f69185d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Try it Yourself »",
+      "targets": [
+        ["linkText=Try it Yourself »", "linkText"],
+        ["css=.w3-margin-bottom:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Try it Yourself »')]", "xpath:link"],
+        ["xpath=//div[@id='main']/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'trypython.asp?filename=demo_type')]", "xpath:href"],
+        ["xpath=//div[7]/div/div/div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Try it Yourself »')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win4556",
+      "windowTimeout": 2000
+    }, {
+      "id": "b73cf5dd-7211-406a-8324-8fc86d67dac1",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7481dec9-123a-4b6f-b58a-7fcc0bb96ee2",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win4556}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "65fe1fa2-3271-4bcc-aa5c-cfa91c434b83",
+      "comment": "",
+      "command": "click",
+      "target": "id=runbtn",
+      "targets": [
+        ["id=runbtn", "id"],
+        ["css=#runbtn", "css:finder"],
+        ["xpath=//button[@id='runbtn']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Run ❯')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "24c56bfa-9467-401e-b4b3-6a11db9e1afb",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c4a03657-c816-4814-82e7-ec183db3136a",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "26e09979-c7e6-40c1-aa0b-1e40b5ac215f",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "1bfea7d1-db8f-4103-b8ad-4a6c3b58034e",
+    "name": "type_text",
+    "commands": [{
+      "id": "62e9fde7-2531-4a7c-8cf2-25fa0e1dbc6d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aaf4ed9a-1f52-4863-9d00-85475c2ebac5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x784",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "befa24de-f70d-46b5-b746-15bc1809f665",
+      "comment": "",
+      "command": "click",
+      "target": "css=#navbtn_tutorials > .fa-caret-down",
+      "targets": [
+        ["css=#navbtn_tutorials > .fa-caret-down", "css:finder"],
+        ["xpath=//a[@id='navbtn_tutorials']/i", "xpath:idRelative"],
+        ["xpath=//a[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2cedde0-c24a-48c5-8b19-8309efc8d8f6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Learn Python",
+      "targets": [
+        ["linkText=Learn Python", "linkText"],
+        ["css=#nav_tutorials .w3-col:nth-child(3) > .w3-bar-item:nth-child(11)", "css:finder"],
+        ["xpath=//a[contains(text(),'Learn Python')]", "xpath:link"],
+        ["xpath=//nav[@id='nav_tutorials']/div/div/div[3]/a[9]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/python/default.asp')]", "xpath:href"],
+        ["xpath=//div[3]/a[9]", "xpath:position"],
+        ["xpath=//a[contains(.,'Learn Python')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "30d39303-0b3a-46c3-a9fb-8db43377ed46",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Python Data Types",
+      "targets": [
+        ["linkText=Python Data Types", "linkText"],
+        ["css=#leftmenuinnerinner > a:nth-child(9)", "css:finder"],
+        ["xpath=//a[contains(text(),'Python Data Types')]", "xpath:link"],
+        ["xpath=//div[@id='leftmenuinnerinner']/a[7]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'python_datatypes.asp')]", "xpath:href"],
+        ["xpath=//div[6]/div/div/a[7]", "xpath:position"],
+        ["xpath=//a[contains(.,'Python Data Types')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7966756e-8bf9-4315-8b8e-016b8a5d065a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Try it Yourself »",
+      "targets": [
+        ["linkText=Try it Yourself »", "linkText"],
+        ["css=.w3-margin-bottom:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Try it Yourself »')]", "xpath:link"],
+        ["xpath=//div[@id='main']/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'trypython.asp?filename=demo_type')]", "xpath:href"],
+        ["xpath=//div[7]/div/div/div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Try it Yourself »')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win4556",
+      "windowTimeout": 2000
+    }, {
+      "id": "8a9b4cec-093a-4d70-9700-c23fecd0e155",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4a61ce92-6fb7-468d-b60c-d1b8ebe1fe88",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win4556}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c99ffee4-f2a1-43cb-a238-5c93adf58a54",
+      "comment": "",
+      "command": "click",
+      "target": "id=runbtn",
+      "targets": [
+        ["id=runbtn", "id"],
+        ["css=#runbtn", "css:finder"],
+        ["xpath=//button[@id='runbtn']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Run ❯')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fdce8037-d726-43d8-b82c-649ae503054f",
+      "comment": "",
+      "command": "assertText",
+      "target": "//*[@id=\"textareawrapper\"]/div/div[6]/div[1]/div/div/div/div[5]/pre[2]/span/span[3]",
+      "targets": [],
+      "value": "type"
+    }, {
+      "id": "0047daca-1d2c-48df-9248-8a7e356fca59",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4d79b7da-947b-4d15-b54e-a99f4429c084",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dd0db07a-7123-4035-8809-5121d318f9cc",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "f8a79fcb-083a-48d2-8254-34e193753af0",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a7232309-d337-4a8d-8213-6f943867284e"]
+  }],
+  "urls": ["https://www.w3schools.com/"],
+  "plugins": []
+}
